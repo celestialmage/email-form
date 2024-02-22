@@ -1,0 +1,21 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+@media all and (min-width: 600px) {
+  header {
+    /* Changes the default setting from block to flex */
+    display: flex;
+
+    /* Pushes the items (title and nav) to the far sides of the browser with space between them */
+  }
+}
